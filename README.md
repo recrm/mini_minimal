@@ -2,8 +2,6 @@
 
 A simple tool to generate static websites from markdown files and HTML templates.
 
-This was developed by Geoffrey Rockwell using Cursor 2.0.77. 
-
 ## Installation
 
 1. Install Python 3.6 or higher
