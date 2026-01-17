@@ -1,0 +1,14 @@
+<div class="gallery">
+  {% for p in site %}
+
+    {% if "img" in p.path %}
+
+  <div class="gallery-item">
+    <img src="{{ p.path }}" alt="This is an image">
+    <div class="caption">This is an image</div>\n'
+  </div>
+
+    {% endif %}
+
+  {% endfor %}
+</div>
